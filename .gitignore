@@ -1,0 +1,16 @@
+# Ignorar pastas
+node_modules/
+build/
+.settings/
+
+# Ignorar arquivos específicos
+.env
+secrets.txt
+
+# Ignorar extensões
+*.log
+*.tmp
+
+# Ignorar arquivos grandes do Neo4j e node_modules
+*.so
+*.db
